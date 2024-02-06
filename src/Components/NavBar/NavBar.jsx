@@ -1,13 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import style from "./NavBar.module.css"
 
 export default function NavBar() {
   return (
     <div>
       <nav className="navbar navbar-expand-sm navbar-light bg-dark-blue text-uppercase fw-bold p-5 ">
         <div className="container">
-            <Link className="navbar-brand text-white" to="home">start framework</Link>
+            <Link className="navbar-brand text-white fs-2" to="home">start framework</Link>
             <button
                 className="navbar-toggler d-lg-none"
                 type="button"
@@ -22,13 +21,13 @@ export default function NavBar() {
             <div className="collapse navbar-collapse" id="collapsibleNavId">
                 <ul className="navbar-nav ms-auto mt-2 mt-lg-0 ">
                     <li className="nav-item  ">
-                        <Link className="nav-link text-white" to="about">About</Link>
+                        <Link className="nav-link text-white fs-5" to="about">About</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link text-white" to="portfolio">Portfolio</Link>
+                        <Link className="nav-link text-white fs-5" to="portfolio">Portfolio</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link text-white" to="contact">Contact</Link>
+                        <Link className="nav-link text-white fs-5" to="contact">Contact</Link>
                     </li>
                    
                 </ul>
