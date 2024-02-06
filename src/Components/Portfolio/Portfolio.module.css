@@ -1,0 +1,19 @@
+.imgContainer {
+    position: relative;
+}
+
+.layer {
+    position: absolute;
+    top: 0;
+    left: 2.5%;
+    right: 2.5%;
+    background-color: #1abc9ccc;
+    bottom: 0;
+    border-radius: .4rem;
+    opacity: 0;
+    transition: .5s;
+
+}
+
+.imgContainer:hover .layer  {
+opacity: 1;}

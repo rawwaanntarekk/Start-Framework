@@ -1,0 +1,18 @@
+
+
+
+.imge {
+    width: 100%;
+    position: absolute;
+    top:-10%;
+}
+
+.image {
+    position: relative;
+    width:300px !important;
+    height: 300px;
+    overflow: hidden;
+    margin:   auto;
+    border: 0px;
+    border-radius: 50%;
+}

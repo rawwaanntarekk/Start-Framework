@@ -1,0 +1,39 @@
+.form {
+    padding: 2rem  3rem    ;
+}
+
+.form * {
+    display: block;
+    text-align: start;
+
+}
+
+.form input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: .625rem;
+    width: 100%;
+    outline: none;
+}
+
+.form .inputField {
+    position: relative;
+
+}
+
+.form label {
+    position: absolute;
+    bottom: 85%;
+    margin: auto 10px !important;
+    font-size: .8rem;
+    color: #1ABC9C !important;
+}
+
+.sndBtn {
+    background-color: #1ABC9C;
+    color: white;
+    border: none;
+    padding: .6rem;
+    text-align: center;
+
+}
