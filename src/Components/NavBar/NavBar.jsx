@@ -6,7 +6,7 @@ export default function NavBar() {
     <div>
       <nav className="navbar navbar-expand-sm navbar-light bg-dark-blue text-uppercase fw-bold p-5 ">
         <div className="container">
-            <Link className="navbar-brand text-white fs-2" to="home">start framework</Link>
+            <Link className="navbar-brand text-white fs-2" to="/">start framework</Link>
             <button
                 className="navbar-toggler d-lg-none"
                 type="button"
